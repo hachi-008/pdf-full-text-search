@@ -2,7 +2,7 @@
 
 react-pdf로 화면 근처 쪽만 그릴 때, 텍스트 레이어에 기대지 않고 문서 전체에서 글자를 찾고 칠하는 최소 예제예요.
 블로그 글 [「'임상시험'이 두 번 있는데 한 번만 찾는다」](https://danbom425.tistory.com/entry/pdf-full-text-search)(브라우저에서 문서 다루기 #5)의 재현 저장소입니다.
-[4편 저장소](https://github.com/danbom/pdf-page-virtualization)의 「보이는 쪽만」 뷰어에 검색을 붙였어요.
+[4편 저장소](https://github.com/hachi-008/pdf-page-virtualization)의 「보이는 쪽만」 뷰어에 검색을 붙였어요.
 
 **▶ 라이브 데모: https://pdf-full-text-search.vercel.app**
 
@@ -49,7 +49,7 @@ npm run build && npm start   # http://localhost:3000 — 숫자는 이렇게 띄
 npm run versions             # next / react-pdf / pdfjs-dist 버전 확인
 ```
 
-`next.config.ts`는 비어 있어요. 이유는 [1편 저장소](https://github.com/danbom/nextjs-pdfjs-minimal)에 있습니다.
+`next.config.ts`는 비어 있어요. 이유는 [1편 저장소](https://github.com/hachi-008/nextjs-pdfjs-minimal)에 있습니다.
 
 ## 화면에서 볼 것
 
